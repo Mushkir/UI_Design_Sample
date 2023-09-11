@@ -52,10 +52,16 @@ function effects() {
   sr.reveal(".about-cdn", { origin: "right" });
 
   // Social Media Icons
+  sr.reveal('.')
   sr.reveal(".facebook", { origin: "left" });
   sr.reveal(".youtube", { origin: "left" });
   sr.reveal(".instagram", { origin: "right" });
   sr.reveal(".linkedin", { origin: "right" });
+
+
+  // HTML Playlist
+  sr.reveal('.playlist-intro')
+  sr.reveal('.html-playlist')
 }
 
 // Toggle Menu
