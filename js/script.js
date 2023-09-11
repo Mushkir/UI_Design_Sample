@@ -50,6 +50,12 @@ function effects() {
   sr.reveal('.location')
   sr.reveal(".address", { origin: "left" });
   sr.reveal(".about-cdn", { origin: "right" });
+
+  // Social Media Icons
+  sr.reveal(".facebook", { origin: "left" });
+  sr.reveal(".youtube", { origin: "left" });
+  sr.reveal(".instagram", { origin: "right" });
+  sr.reveal(".linkedin", { origin: "right" });
 }
 
 // Toggle Menu
